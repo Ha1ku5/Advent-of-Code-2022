@@ -1,13 +1,16 @@
-import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+/*
+    Takes a file containing groups of ints
+    prints the largest 3 groupings
 
+ */
 public class Day1 {
     public static void main(String[] args) {
-        int maxCalories = 0;
+        int maxCalories;
         int currentElf = 0;
-        int elfWithMostCal = 0;
         int first = 0;
         int second = 0;
         int third = 0;
