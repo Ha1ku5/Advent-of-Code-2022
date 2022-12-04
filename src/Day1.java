@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class Day1 {
     public static void main(String[] args) {
         int maxCalories;
-        int currentElf = 0;
         int first = 0;
         int second = 0;
         int third = 0;
@@ -23,7 +22,6 @@ public class Day1 {
         }
 
         while(fileInput.hasNext()){
-            System.out.println(currentElf++);
 
             int currentCalorieSum = 0;
             while(fileInput.hasNext()){
